@@ -1,6 +1,17 @@
 # rubiks-cube
 GCube, a WebGL Rubik's Cube
 
+## Development status update
+There is currenntly no development by owner blonkm.
+
+* Feature status: complete freeze; no function or API change
+
+* Code status: partial freeze; just fixes/typos or documentation updates; no extentions for other boards; no new examples
+
+* Maintenance status: sporadically
+
+The WebGL cube is now usable enough for embedding on any site. The biggest hurdle is the current use of older WebGL code. Upgrading would almost require a rewrite of the entire code base, and preferably a change to Three.js. You can still commit changes and pull requests, I will investigate any proposal.
+
 ## History
 Java used to be the go-to solution for Rubik's cube applets (no pun intended with the Go-To). The last couple of years people 
 have gotten used to HTML5+CSS3 which gives a very slick experience in regular browsers. Browsers are not plain text, links and 
